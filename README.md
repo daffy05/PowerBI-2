@@ -18,7 +18,8 @@ The dataset contains order-level retail transaction records with fields such as:
 
 Power BI Dashboard showing Superstore Sales Analysis:
 
-![Uploading Screenshot 2026-09-07 145750.png…]()
+<img width="894" height="504" alt="Screenshot 2026-09-07 145750" src="https://github.com/user-attachments/assets/ef910b6f-6d23-4ff3-bff3-68b1a538da90" />
+
 
 
 ## 📊 Dashboard Visualizations

@@ -1,139 +1,250 @@
-# Superstore Sales Analysis – Power BI Dashboard
+# 📊 Shopify Stock Dashboard – Power BI
 
-This project uses **Microsoft Power BI** to analyze the classic *Sample Superstore* dataset and create an interactive sales analysis dashboard. The dashboard provides insights into overall sales, quantity, discount, profit, product categories, regions, yearly trends, and geographical performance.
+## 📌 Project Overview
 
-## 📁 Dataset
+The **Shopify Stock Dashboard** is an interactive data visualization project developed using **Microsoft Power BI**.
 
-The dataset contains order-level retail transaction records with fields such as:
+The dashboard analyzes Shopify stock market data and presents important information such as stock prices, trading volume, and moving averages through interactive visualizations.
 
-- Row ID, Order ID, Order Date, Ship Date, Ship Mode
-- Customer ID, Customer Name
-- Product ID, Product Name
-- Category, Sub-Category
-- Region, State/Province
-- Sales, Quantity, Discount, Profit
-- Segment and Postal Code
+The main purpose of this project is to make stock market data easier to understand and analyze using a simple and interactive dashboard.
 
-## 🖼️ Dashboard Screenshot
+---
 
-Power BI Dashboard showing Superstore Sales Analysis:
+## 🖥️ Dashboard Output
 
-<img width="894" height="504" alt="Screenshot 2026-09-07 145750" src="https://github.com/user-attachments/assets/ef910b6f-6d23-4ff3-bff3-68b1a538da90" />
+<img width="887" height="495" alt="Screenshot 2026-09-27 140037" src="https://github.com/user-attachments/assets/a459d79d-4efa-4f14-abba-cb4a2adb4385" />
 
 
+---
 
-## 📊 Dashboard Visualizations
+## 🎯 Project Objectives
 
-The following visualizations were created in the Power BI dashboard:
+* Analyze Shopify stock price trends.
+* Monitor closing stock prices.
+* Identify the highest and lowest stock prices.
+* Analyze trading volume.
+* Compare stock prices with moving averages.
+* Understand stock price movements over time.
+* Create an interactive and easy-to-understand Power BI dashboard.
 
-| Visualization | Description |
-|------|-------------|
-| **Total Sales** | Displays the overall sales generated |
-| **Total Quantity** | Shows the total quantity of products sold |
-| **Total Discount** | Displays the overall discount provided |
-| **Total Profit** | Shows the total profit generated |
-| **Sales by Sub-Category** | Compares sales performance across product sub-categories |
-| **Profit by Month** | Displays monthly profit trends |
-| **Quantity by Category** | Shows quantity distribution among product categories |
-| **Quantity by Region** | Compares product quantity across regions |
-| **Profit by Year** | Analyzes yearly profit performance |
-| **Sales by State/Province** | Displays geographical sales distribution using a map |
+---
 
-## 🔧 Power BI Components Used
+## 🛠️ Tools & Technologies
 
-The following components were used to build the dashboard:
+* **Microsoft Power BI**
+* **Power Query**
+* **DAX**
+* **Data Visualization**
+* **Stock Market Dataset**
 
-| Component | Description |
-|------|-------------|
-| **Power Query** | Used for data cleaning and transformation |
-| **KPI Cards** | Created for Sales, Quantity, Discount, and Profit |
-| **Bar Chart** | Used to analyze Sales by Sub-Category |
-| **Line Chart** | Used to visualize Total Profit by Month |
-| **Donut Charts** | Used for Category and Region analysis |
-| **Bar Chart** | Used to compare Total Profit by Year |
-| **Map Visualization** | Used to display Sales by State/Province |
-| **Slicers** | Added Sub-Category and Region filters |
-| **Formatting** | Applied a consistent dashboard theme and layout |
-
-## 📈 Key Performance Indicators
-
-The dashboard highlights the following KPIs:
-
-- **Total Sales:** 2.33M
-- **Total Quantity:** 38.5K
-- **Total Discount:** 1.58K
-- **Total Profit:** 292.30K
-
-## 🎯 Purpose
-
-This dashboard was created to:
-
-- Analyze overall Superstore business performance
-- Identify high-performing product sub-categories
-- Track monthly profit trends
-- Compare yearly profit performance
-- Analyze category and regional distribution
-- Visualize geographical sales performance
-- Enable interactive filtering for better data exploration
-
-## 🛠️ Tools Used
-
-- **Microsoft Power BI Desktop**
-- **Power Query** – Data cleaning and transformation
-- **DAX** – Measures and calculated values
-- **Data Visualization** – Cards, Bar Charts, Line Charts, Donut Charts, and Maps
-
-## 🚀 How to Use
-
-1. Download the `.pbix` file from this repository.
-2. Open the file using **Microsoft Power BI Desktop**.
-3. Refresh the dataset if required.
-4. Use the **Sub-Category** and **Region** slicers to filter the data.
-5. Interact with the charts and visuals to explore business insights.
-
-## 📌 Key Insights
-
-The dashboard helps in understanding:
-
-- Overall sales and profit performance
-- Sales contribution by different sub-categories
-- Monthly changes in profit
-- Quantity distribution across categories
-- Regional business performance
-- Year-wise profit comparison
-- State and province-wise sales distribution
-
-## 🎨 Dashboard Design
-
-The dashboard uses a modern visual design featuring:
-
-- Dark purple background
-- Pink dashboard cards
-- Clear KPI indicators
-- Interactive slicers
-- Multiple visualization types
-- Consistent typography and layout
+---
 
 ## 📂 Project Structure
 
 ```text
-Superstore-Sales-Analysis/
+Shopify-Stock-Dashboard/
 │
-├── Superstore Sales Analysis.pbix
-├── Sample Superstore Dataset.csv
-├── README.md
-└── Dashboard Screenshot.png
+├── PowerBI4.pbix
+├── dashboard.png
+└── README.md
 ```
 
-## 🚀 Future Improvements
+### Files Description
 
-- Add sales forecasting
-- Create advanced DAX measures
-- Add customer segmentation analysis
-- Implement drill-through functionality
-- Publish the dashboard to Power BI Service
-- Add additional interactive report pages
+| File            | Description                       |
+| --------------- | --------------------------------- |
+| `PowerBI4.pbix` | Complete Power BI dashboard file  |
+| `dashboard.png` | Final dashboard output screenshot |
+| `README.md`     | Project documentation             |
 
-## 📝 Conclusion
+---
 
-This project demonstrates how **Power BI** can transform raw Superstore data into meaningful and interactive business insights. The dashboard provides a centralized view of sales, quantity, discount, profit, product performance, regional performance, and geographical distribution, supporting effective data-driven decision-making.
+## 📈 Dashboard Features
+
+### 1. 📅 Date Filter
+
+A date slicer allows users to select a specific date range and analyze stock performance for the selected period.
+
+### 2. 💰 Latest Closing Price
+
+Displays the latest available closing price of Shopify stock.
+
+### 3. 📈 Highest Price
+
+Shows the highest stock price available in the selected data.
+
+### 4. 📉 Lowest Price
+
+Shows the lowest stock price available in the selected data.
+
+### 5. 📊 Trading Volume
+
+Displays information about the trading volume of Shopify stock.
+
+### 6. 📈 Closing Price Trend
+
+A line chart is used to visualize the movement of Shopify's closing price over time.
+
+### 7. 📊 20-Day Moving Average
+
+The dashboard includes a **20-day moving average** to help analyze short-term stock price trends.
+
+### 8. 📊 50-Day Moving Average
+
+A **50-day moving average** is included to visualize longer-term stock price trends.
+
+### 9. 📊 Trading Volume Analysis
+
+A chart displays trading volume across different dates to help understand changes in market activity.
+
+### 10. 📈 Price & Volume Analysis
+
+The dashboard compares stock price movements with trading volume to provide a broader view of stock performance.
+
+---
+
+## 📌 Key Metrics
+
+| Metric                    | Description                        |
+| ------------------------- | ---------------------------------- |
+| **Latest Close**          | Most recent closing stock price    |
+| **Highest Price**         | Highest recorded stock price       |
+| **Lowest Price**          | Lowest recorded stock price        |
+| **Trading Volume**        | Amount of stock traded             |
+| **20-Day Moving Average** | Average closing price over 20 days |
+| **50-Day Moving Average** | Average closing price over 50 days |
+
+---
+
+## 📊 Visualizations
+
+The dashboard uses:
+
+* KPI Cards
+* Line Charts
+* Column Charts
+* Combination Charts
+* Date Slicer
+* Interactive Filters
+
+---
+
+## 🧮 Data Analysis
+
+The dataset contains stock market information such as:
+
+* Date
+* Open Price
+* High Price
+* Low Price
+* Close Price
+* Trading Volume
+
+The data is processed and visualized using Power BI.
+
+DAX calculations are used to create important measures and analyze stock performance.
+
+---
+
+## 📐 Moving Average Analysis
+
+### 20-Day Moving Average
+
+The 20-day moving average provides an overview of the recent stock price trend.
+
+### 50-Day Moving Average
+
+The 50-day moving average provides a longer-term view of the stock price trend.
+
+The closing price can be compared with these moving averages to visualize changes in stock price trends.
+
+---
+
+## 🎨 Dashboard Design
+
+The dashboard uses a clean and modern financial-analysis style.
+
+### Design Features
+
+* Dark dashboard background
+* Blue accent colours
+* Highlighted KPI cards
+* Clear chart titles
+* Interactive date filtering
+* Simple and readable layout
+
+---
+
+## 🔄 Dashboard Workflow
+
+```text
+Stock Market Data
+        ↓
+Data Cleaning
+        ↓
+Power Query
+        ↓
+Data Model
+        ↓
+DAX Calculations
+        ↓
+Power BI Visualizations
+        ↓
+Interactive Dashboard
+```
+
+---
+
+## 🚀 How to Use
+
+1. Install **Microsoft Power BI Desktop**.
+2. Open the `PowerBI4.pbix` file.
+3. Allow the report to load.
+4. Use the date slicer to select a required period.
+5. Review the KPI cards.
+6. Analyze the price and volume charts.
+7. Compare the closing price with the moving averages.
+
+---
+
+## 💡 Insights
+
+The dashboard can be used to understand:
+
+* Shopify stock price movements over time.
+* Highest and lowest stock prices.
+* Changes in trading volume.
+* Short-term price trends.
+* Longer-term price trends.
+* Relationship between price and trading activity.
+
+---
+
+## 🎓 Skills Demonstrated
+
+* Power BI
+* Power Query
+* DAX
+* Data Cleaning
+* Data Modeling
+* Data Visualization
+* Dashboard Design
+* Financial Data Analysis
+* Interactive Reporting
+
+---
+
+## 📌 Project Information
+
+**Project Name:** Shopify Stock Dashboard
+
+**Project Type:** Data Analytics / Data Visualization
+
+**Domain:** Stock Market Analysis
+
+**Tool:** Microsoft Power BI
+
+**File Format:** `.pbix`
+
+---
+

@@ -17,7 +17,8 @@ Power BI Dashboard showing Superstore Sales Analysis:
 
 Add your uploaded dashboard screenshot to the GitHub repository and replace the image link below.
 
-<img width="1163" height="702" alt="Screenshot 2026-09-07 193232" src="https://github.com/user-attachments/assets/242b110a-54db-474f-9981-fdd334c0b9e7" />
+<img width="886" height="499" alt="Screenshot 2026-09-29 110825" src="https://github.com/user-attachments/assets/5c6f43a6-5642-4c2d-94ab-7ca894578278" />
+
 
 
 ## 📊 Dashboard Visualizations
